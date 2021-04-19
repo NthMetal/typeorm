@@ -180,8 +180,8 @@ export class DriverUtils {
             type: type,
             host: host,
             hostReplicaSet: hostReplicaSet,
-            username: decodeURIComponent(username),
-            password: decodeURIComponent(password),
+            username: username,
+            password: password,
             port: port ? parseInt(port) : undefined,
             database: afterBase || undefined,
             replicaSet: replicaSet || undefined
